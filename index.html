@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Contador de vogais</title>
+</head>
+
+<body class="bg-purple-300 flex justify-center items-center w-screen h-svh">
+    <main class="">
+        <section class="bg-blue-200 flex flex-col justify-center items-center max-w-screen-sm max-h-screen m-5 p-5 gap-3">
+            <h1 class="text-4xl">
+                Contador de vogais
+            </h1>
+            <p>Digite seu texto e lhe direi a quantidade de vogais e letras que há em todo seu texto</p>
+
+            <label for="Digite">Digite ou cole seu texto aqui:</label>
+            <textarea name="" id="texto" class="border-gray-400 w-96 h-40 p-4 bg-gray-200 rounded-sm"></textarea>
+            
+
+            <button  class="w-26 bg-purple-500 text-white px-4 py-1 rounded hover:bg-purple-700 active:bg-purple-900" onclick="contarVogais()">Contar Vogais</button>
+            <button class="w-26 bg-purple-500 text-white px-4 py-1 rounded hover:bg-purple-700 active:bg-purple-900"  onclick="contarConsoantes()">Contar Consoantes</button>
+            
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
